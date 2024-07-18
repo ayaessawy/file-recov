@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0;}
+body{margin: 0;padding: 0;font-family: "Lato", sans-serif;}
+.body{width: 100%;height: auto;}
+
+.navbar{background-color: rgb(225, 161, 13);height: 80px !important;}
+.logo{width:30% ;float: left;height: auto;}
+.logo p{color: #fff;font-size: 30px;font-weight: 700;}
+.navbar ul{width: 50%;float: left;height: auto;}
+.navbar ul li{color: #fff; padding-left: 5%;display: inline-block !important;
+  margin-top: 2%;list-style-type: none !important;}
+
+.navbar ul li a{color: #fff;text-decoration: none;}
+.toggler img{width: 40px;height: auto;display: block;}
+#small-screen{display: none;}
+
+@media (max-width:995px) {
+  #small-screen{display: block;}
+  #large-screen{display: none;}
+
+}
+
+
+/*************************************************/
+.download-bannersection{width: 100%;float: left;overflow: hidden;}
+.download-bannersection h1{text-align: center;font-size: 4.5rem;line-height: 1.33;letter-spacing: -3.5px;margin-top: 5%;}
+.download-bannersection h1 span{color: #385C72;
+}
+.download-bannersection p{width: 60%;margin: auto;font-size: 22px;margin-top: 3%;font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;}
+.download-bannersection button    {width: 240px;height:50px;background-color: #385C72;color: #fff;font-weight: 600;
+  border: 0;border-radius: 20px;display: block;margin:3% auto;}
+  /*********************************************************/
+  .explorer-download-section{width: 100%;float: left;overflow: hidden;margin-top:7%;overflow:hidden;}
+  .explorer-download-section .image{width: 260px;margin-left: 10%;
+    height: 160px;border: 5px solid #ddd;border-radius: 40px;margin-bottom: 4%;}
+  .explorer-download-section .image img{width: 120px;height: auto;display: block;margin:7% auto;}
+  .explorer-download-section h1{font-size: 25px;}
+  .explorer-download-section .content img{display:inline-block ;width: 60px;height: auto;}
+  
+  .explorer-download-section  .content .par span{color: #385C72;font-size: 20px;font-weight: 700;padding:10% 2%;}
+  .explorer-download-section .checked{color:yellowgreen;}
+  .explorer-download-section hr{width: 80%;background-color: rgb(225, 161, 13)}
+/***********************************************************/
+
+.whats-new__headline {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: .024em;margin-bottom: 2%;
+  font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.news-content{padding-left: 5%;margin-top: 6%;border-bottom: 2px solid #ddd;}
+.news-content p{font-size: 16px;color: rgb(44, 44, 44);line-height: 15px;}
+/*************************************/
+.version-rating{width: 100%;float: left;overflow: hidden;;}
+.version-rating h2{  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;padding-left: 9%;
+  letter-spacing: .024em;margin-bottom: 3%;margin-top: 6%;
+  font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.version-rating .rate{margin-bottom: 3%;}
+.version-rating .box p{width: 85%;padding-left: 5%;overflow: hidden;}
+.version-rating .checked{color: yellowgreen;}
+.version-rating .box{width: 100%;text-align: left;background-color: #eee;padding: 6% 4%;margin-bottom: 6%;}
+  /******************************************************
+.banner-download{width: 100%;float: left;height: 650px;background-color:#385C72;}
+.dashed-container{width: 80%;margin:10% auto ;border: 8px dashed rgb(225, 161, 13);height: 400px;}
+.dashed-container .folde-icon img{display: block;width: 20%;height: auto;
+  ;margin: 2% auto;}
+
+.dashed-container{width: 80%;margin:10% auto ;border: 8px dashed rgb(225, 161, 13);height: 400px;}
+.dashed-container  h2{color: rgb(225, 161, 13);
+
+text-align: center;font-size: 23px;}
+
+.banner-download button    {width: 140px;height:50px;background-color: rgb(225, 161, 13);color: #fff;
+  border: 0;border-radius: 20px;display: block;margin:6% auto;}
+  /********************************************************************/
+  .download-version{width: 100%;float: left;overflow: hidden;;background-color: #fff;margin-top: 3%;}
+  .download-version h2,.download-version h1{color: #0E142B;font-size: 25px;margin-top: 3%;
+  font-weight: 600;padding-left:6%}
+ .download-version p{width: 80%;padding-left: 10%;}
+ .download-version a{display: block; padding-left: 11%;}
+ .download-version .links,.download-version .image{width: 100%;float: left;overflow: hidden;margin-top: 5%;}
+ .download-version .links,.download-version h1{padding-left: 16%;}
+.download-version .image img{width:80%;margin-top: -18%}
+ /*********************************************/
+ .footer{width: 100%;float: left;height: 80px;background-color: #385C72;}
+ .footer p{color: #fff;font-size: 0.95em;
+  padding: 1.5em;
+  text-align: center;
+}
